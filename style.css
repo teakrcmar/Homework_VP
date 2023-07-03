@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#stock-chart {
+  width: 900px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+
+svg {
+  width: 950px;
+  height: 550px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.hover-overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+}
